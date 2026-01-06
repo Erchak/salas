@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Botones sin nombre</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                padding: 20px;
+            }
+
+            button {
+                padding: 10px 20px;
+                margin: 5px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Ejemplo de botones</h1>
+
+        <!-- Botones sin texto -->
+        <button id="btn1"></button>
+        <button id="btn2"></button>
+        <button id="btn3"></button>
+
+        <!-- Puedes agregar el nombre después con JavaScript -->
+        <script>
+            // Ejemplo de cómo ponerles nombre luego
+            document.getElementById("btn1").textContent = "Botón 1";
+            document.getElementById("btn2").textContent = "Botón 2";
+            document.getElementById("btn3").textContent = "Botón 3";
+        </script>
+
+    </body>
+</html>
